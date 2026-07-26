@@ -8,7 +8,7 @@ Built as a hands-on learning project — every component was implemented, debugg
 
 ## Features
 
-- **Multi-format ingestion**: PDF, DOCX, PPTX, XLSX, TXT, Markdown, and websites
+- **Multi-format ingestion**: PDF, DOCX, PPTX, XLSX, TXT, Markdown, and websites(can be uploaded via terminal)
 - **Hierarchical parent-child chunking** with `AutoMergingRetriever` (small chunks for precise search, large parent chunks for LLM context)
 - **Hybrid search**: dense (embedding) + sparse (BM25) retrieval fused natively in Qdrant
 - **Cross-encoder reranking** (`BAAI/bge-reranker-base`) to filter irrelevant retrieved chunks
