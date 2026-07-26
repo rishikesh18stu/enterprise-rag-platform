@@ -1,0 +1,65 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environments
+venv/
+.venv/
+backend/venv/
+
+# Environment Variables
+.env
+.env.*
+
+# ==========================
+# Node / Next.js
+# ==========================
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Build Files
+# ==========================
+build/
+dist/
+
+# ==========================
+# Project Data
+# ==========================
+backend/data/
+backend/storage/
+backend/evaluation_results.csv
+qdrant_storage/
+models/
+
+# ==========================
+# Docker
+# ==========================
+*.pid
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
