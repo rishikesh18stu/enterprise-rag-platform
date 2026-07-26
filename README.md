@@ -182,8 +182,3 @@ Documented honestly rather than hidden — these are real architectural tradeoff
 - Long-term (cross-session) memory
 - Per-role access control on documents (currently all authenticated users share one knowledge base)
 
----
-
-## License
-
-MIT (or update as preferred)
